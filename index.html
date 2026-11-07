@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="th" class="dark"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIFinder AI Ultimate V2</title>
+<script src="https://cdn.tailwindcss.com"></script><script src="https://unpkg.com/lucide@latest"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<style>
+body{background:#0b0f17;color:#e5edf7;font-family:Inter,system-ui,sans-serif} .panel{background:#151c28;border:1px solid #263449;border-radius:16px}.muted{color:#94a3b8}.field{background:#0b1220;border:1px solid #334155;border-radius:10px;padding:10px;width:100%;color:#e5edf7}.btn{border-radius:10px;padding:9px 14px;background:#0ea5e9;color:white;font-weight:600}.btn2{border-radius:10px;padding:9px 14px;background:#263449;color:#e5edf7}.tab.active{background:#0ea5e933;color:#7dd3fc;border-color:#0ea5e9}.tab{border:1px solid #263449;padding:9px 13px;border-radius:10px}.bubble{padding:12px;border-radius:12px;white-space:pre-wrap;overflow-wrap:anywhere}.user{background:#12324a}.assistant{background:#202b3a}pre{white-space:pre-wrap;overflow-wrap:anywhere}.chip{border:1px solid #334155;border-radius:999px;padding:4px 10px;font-size:11px;color:#94a3b8;cursor:pointer}.chip:hover,.chip.on{border-color:#0ea5e9;color:#7dd3fc;background:#0ea5e922}.sec-badge{font-size:10px;padding:2px 8px;border-radius:6px;background:#14532d55;color:#86efac}
+</style></head>
+<body>
+<header class="sticky top-0 z-30 bg-[#0b0f17]/95 border-b border-slate-800"><div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+<div class="flex gap-3 items-center"><div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-sky-500 to-purple-600 grid place-items-center"><i data-lucide="sparkles"></i></div><div class="font-bold text-xl">AIFinder <span class="text-sky-400">Ultimate V2.4 Max</span><div class="text-[10px] muted font-normal">V2.4 MAX · FULL SYSTEM PACK</div></div></div>
+<div class="text-xs muted" id="health">กำลังตรวจสอบระบบ...</div></div></header>
+<main class="max-w-7xl mx-auto p-4 sm:p-6">
+<section class="text-center py-7"><p class="text-sky-300 text-xs mb-2">MULTI-MODEL AI · CODE INTELLIGENCE · GAME SERVER OPS</p><h1 class="text-3xl sm:text-5xl font-black mb-3">Build with <span class="bg-gradient-to-r from-sky-400 via-indigo-400 to-purple-400 bg-clip-text text-transparent">Intelligence</span></h1><p class="muted">พื้นที่ทำงาน AI วิเคราะห์โค้ด และจัดการเซิร์ฟเวอร์เกมจากจุดเดียว</p></section>
+<nav class="flex flex-wrap gap-2 mb-5">
+<button class="tab active" data-tab="chat">AI Studio</button>
+<button class="tab" data-tab="dash">Dashboard</button>
+<button class="tab" data-tab="models">Model Directory</button>
+<button class="tab" data-tab="products">AI Products</button>
+<button class="tab" data-tab="links">All Links</button>
+<button class="tab" data-tab="analyzer">Code Analyzer</button>
+<button class="tab" data-tab="games">Game Inspector</button>
+<button class="tab" data-tab="servers">Server Manager</button>
+<button class="tab" data-tab="projects">Projects & History</button>
+<button class="tab" data-tab="research">Web Research</button>
+<button class="tab" data-tab="settings">Connections</button>
+</nav>
+
+<section id="chat" class="page grid lg:grid-cols-[300px_1fr] gap-4">
+<aside class="panel p-4 space-y-3"><h2 class="font-bold">ตั้งค่าการสนทนา</h2>
+<label class="text-xs muted">ผู้ให้บริการ AI<select id="provider" class="field mt-1"><option value="openai">OpenAI</option><option value="anthropic">Anthropic Claude</option><option value="google">Google Gemini</option></select></label>
+<label class="text-xs muted">โมเดล<select id="model" class="field mt-1"></select></label>
+<label class="text-xs muted">ระดับการวิเคราะห์<select id="reasoning" class="field mt-1"><option value="low">เร็ว</option><option value="medium" selected>สมดุล</option><option value="high">ลึก</option><option value="max">สูงสุดที่รองรับ</option></select></label>
+<label class="text-xs muted">System instructions<textarea id="systemPrompt" rows="4" class="field mt-1">คุณคือผู้ช่วย AI ด้านการพัฒนาซอฟต์แวร์ เกม และการเลือกโมเดล AI อธิบายเป็นขั้นตอน ใช้ชื่อโมเดลจริงเท่านั้นเมื่อแนะนำ และระบุข้อจำกัดอย่างตรงไปตรงมา</textarea></label>
+<label class="text-xs muted">โปรเจกต์<select id="chatProject" class="field mt-1"><option value="">ไม่ผูกกับโปรเจกต์</option></select></label>
+<label class="text-xs muted">แม่แบบคำสั่ง<select id="promptTemplates" class="field mt-1"><option value="">— เลือกแม่แบบ —</option></select></label>
+<label class="text-xs muted flex items-start gap-2 mt-2 p-2 rounded-lg border border-slate-700 cursor-pointer">
+<input type="checkbox" id="useCatalog" class="mt-1">
+<span><b class="text-sky-300">ใช้ความรู้จาก Model Directory</b><br><span class="text-[10px]">ดึงโมเดลจริงจากชุด 50k มาช่วยแนะนำ (RAG) — ไม่ใช่การเทรน AI ใหม่</span></span>
+</label>
+<button class="btn2 w-full" id="newChat">เริ่มแชทใหม่</button><p class="text-[11px] muted">ระดับ reasoning ขึ้นกับความสามารถของโมเดลและ API ที่เลือก ค่า “สูงสุด” ไม่ได้รับประกันว่าโมเดลทุกตัวรองรับ</p>
+</aside>
+<div class="panel p-4 flex flex-col min-h-[620px]"><div class="flex justify-between items-center mb-3"><div><h2 class="font-bold text-lg">AI Conversation</h2><p class="text-xs muted" id="chatStatus">พร้อมใช้งานเมื่อกำหนด API Key</p><p class="text-[10px] text-sky-400/80 mt-0.5" id="advisorStatus"></p></div><button id="saveChat" class="btn2 text-xs">บันทึกแชท</button></div>
+<div id="messages" class="flex-1 min-h-[400px] max-h-[560px] overflow-y-auto bg-[#0b1220] rounded-xl p-3 space-y-3"><div class="muted text-sm">เลือกผู้ให้บริการและโมเดล แล้วเริ่มสนทนาได้เลย</div></div>
+<form id="chatForm" class="flex gap-2 mt-3"><textarea id="message" rows="2" class="field flex-1" placeholder="ถามเกี่ยวกับโค้ด เกม หรือการพัฒนาโปรเจกต์..." required></textarea><button class="btn self-end">ส่ง</button></form>
+</div></section>
+
+<section id="analyzer" class="page hidden space-y-4">
+<div class="panel p-5"><h2 class="font-bold text-xl mb-1">Multi-file Code Analyzer</h2><p class="muted text-sm mb-4">เลือกหลายไฟล์ โฟลเดอร์ หรือ ZIP ระบบจะอ่านไฟล์ข้อความและจัดทำแผนที่โครงสร้างโดยไม่รันโค้ดที่อัปโหลด</p>
+<div class="flex flex-wrap gap-2"><label class="btn cursor-pointer">เพิ่มไฟล์<input id="codeFiles" type="file" multiple class="hidden"></label><label class="btn2 cursor-pointer">เพิ่มโฟลเดอร์<input id="codeFolder" type="file" webkitdirectory multiple class="hidden"></label><label class="btn2 cursor-pointer">เพิ่ม ZIP<input id="codeZip" type="file" accept=".zip,application/zip" class="hidden"></label><button id="clearCode" class="btn2">ล้าง</button></div>
+<div id="codeDrop" class="border border-dashed border-slate-600 rounded-xl p-5 mt-3 text-center text-sm muted">ลากไฟล์หรือ ZIP มาวางที่นี่</div>
+<div class="flex justify-between mt-4 text-sm"><span id="codeCount" class="muted">ยังไม่มีไฟล์</span><button id="analyzeBtn" class="btn" disabled>วิเคราะห์ไฟล์ทั้งหมด</button></div></div>
+<div class="grid lg:grid-cols-2 gap-4"><div class="panel p-4"><h3 class="font-bold mb-2">ไฟล์ในโปรเจกต์</h3><div id="codeList" class="text-xs muted max-h-96 overflow-auto">ยังไม่มีข้อมูล</div></div><div class="panel p-4"><div class="flex justify-between gap-2"><h3 class="font-bold">ผลวิเคราะห์</h3><button id="saveAnalysis" class="btn2 text-xs">บันทึกเป็นโปรเจกต์</button></div><div id="analysisResult" class="text-sm muted mt-3">เพิ่มไฟล์เพื่อเริ่มวิเคราะห์</div></div></div>
+</section>
+
+<section id="games" class="page hidden space-y-4">
+<div class="panel p-5"><h2 class="font-bold text-xl">Game Project Inspector</h2><p class="muted text-sm mt-1 mb-4">ตรวจหาเอนจินและไฟล์สำคัญจากชุดไฟล์ที่เพิ่มใน Code Analyzer</p><button id="inspectGame" class="btn">ตรวจสอบโปรเจกต์เกม</button><div id="gameResult" class="mt-4 text-sm muted">รอไฟล์โปรเจกต์จาก Code Analyzer</div></div>
+<div class="panel p-5"><h3 class="font-bold mb-2">สิ่งที่ตรวจหา</h3><div class="grid sm:grid-cols-2 gap-2 text-sm muted"><p>• Unity: Assets, Packages, ProjectSettings</p><p>• Unreal: .uproject, Config, Content, Source</p><p>• Godot: project.godot, scenes, scripts</p><p>• Minecraft: server.properties, plugins, mods</p><p>• Node / Web game: package.json, src, server entry</p><p>• โครงสร้างทั่วไป: config, assets, source, README</p></div></div>
+</section>
+
+<section id="servers" class="page hidden space-y-4">
+<div class="panel p-5"><h2 class="font-bold text-xl">Game Server Manager</h2><p class="muted text-sm mb-4">จัดการเฉพาะเทมเพลตและ Docker image ที่เซิร์ฟเวอร์อนุญาตไว้ ไม่รับคำสั่ง shell หรือ image อิสระจากหน้าเว็บ</p>
+<div class="grid md:grid-cols-3 gap-3"><label class="text-xs muted">ชื่อเซิร์ฟเวอร์<input id="serverName" class="field mt-1" value="my-minecraft"></label><label class="text-xs muted">ชนิด<select id="serverType" class="field mt-1"><option value="minecraft">Minecraft Java</option></select></label><label class="text-xs muted">จำนวนผู้เล่นสูงสุด<input id="maxPlayers" type="number" min="1" max="50" value="10" class="field mt-1"></label></div>
+<label class="flex gap-2 items-center text-sm mt-3"><input type="checkbox" id="eula"> ฉันได้อ่านและยอมรับ EULA ของซอฟต์แวร์เกมนี้แล้ว</label>
+<button id="createServer" class="btn mt-4">สร้างเซิร์ฟเวอร์</button><p id="serverMsg" class="text-sm muted mt-3"></p></div>
+<div class="panel p-5"><div class="flex justify-between items-center mb-3"><h3 class="font-bold">เซิร์ฟเวอร์ของฉัน</h3><button id="refreshServers" class="btn2 text-xs">รีเฟรช</button></div><div id="serverList" class="space-y-2 text-sm muted">ยังไม่มีเซิร์ฟเวอร์</div></div>
+<p class="text-xs muted">ต้องติดตั้ง Docker บนเครื่อง Backend และกำหนด ADMIN_TOKEN ก่อนใช้งานจริง การเปิดพอร์ตสู่สาธารณะขึ้นกับ Firewall/Router ของผู้ดูแล อย่าเปิดบริการให้บุคคลทั่วไปโดยไม่ตั้งค่าความปลอดภัย</p>
+</section>
+
+<section id="projects" class="page hidden grid lg:grid-cols-2 gap-4">
+<div class="panel p-5"><div class="flex justify-between mb-3"><h2 class="font-bold text-xl">Projects</h2><button id="refreshProjects" class="btn2 text-xs">รีเฟรช</button></div><div id="projectList" class="space-y-2 text-sm muted"></div></div>
+<div class="panel p-5"><h2 class="font-bold text-xl mb-3">Chat History</h2><div id="historyList" class="space-y-2 text-sm muted"></div></div>
+</section>
+
+
+
+
+<section id="models" class="page hidden space-y-4">
+<div class="panel p-4">
+  <div class="flex flex-wrap items-end justify-between gap-3 mb-4">
+    <div>
+      <h2 class="font-bold text-lg">AI Model Directory</h2>
+      <p class="text-xs muted" id="modelsMeta">ฐานข้อมูลโมเดลจริง 100% จาก Hugging Face + curated providers</p>
+    </div>
+    <div class="text-xs muted text-right" id="modelsStats"></div>
+  </div>
+  <div id="modelsCatChips" class="flex flex-wrap gap-2 mb-3"></div>
+  <div class="flex flex-wrap gap-2 mb-3">
+    <label class="text-xs muted flex items-center gap-2 px-3 py-2 rounded-lg border border-slate-700 cursor-pointer">
+      <input type="radio" name="modelsMode" value="local" checked> Local (~50k snapshot)
+    </label>
+    <label class="text-xs muted flex items-center gap-2 px-3 py-2 rounded-lg border border-slate-700 cursor-pointer">
+      <input type="radio" name="modelsMode" value="live"> Live Hugging Face API
+    </label>
+  </div>
+  <div class="grid sm:grid-cols-2 lg:grid-cols-6 gap-3 mb-4">
+    <label class="text-xs muted lg:col-span-2">ค้นหา<input id="modelsQuery" class="field mt-1" placeholder="Llama, Flux, Whisper, DeepSeek..."></label>
+    <label class="text-xs muted">หมวดหมู่<select id="modelsCategory" class="field mt-1">
+      <option value="">ทั้งหมด</option>
+      <option>Chat</option><option>Coding</option><option>Image</option>
+      <option>Video</option><option>Audio</option><option>Reasoning</option>
+      <option>Open Source</option>
+    </select></label>
+    <label class="text-xs muted">เรียงตาม<select id="modelsSort" class="field mt-1">
+      <option value="downloads">Most Downloads</option>
+      <option value="likes">Most Liked</option>
+      <option value="updated">Recently Updated</option>
+      <option value="name">ชื่อ A–Z</option>
+    </select></label>
+    <label class="text-xs muted flex items-center gap-2 mt-6"><input type="checkbox" id="modelsOpenOnly"> Open Source</label>
+    <div class="flex gap-2 items-end">
+      <button class="btn flex-1" id="modelsSearchBtn">ค้นหา</button>
+      <button class="btn2" id="modelsResetBtn">รีเซ็ต</button>
+    </div>
+  </div>
+  <div class="flex justify-between items-center mb-3">
+    <span class="text-xs muted" id="modelsPageInfo"></span>
+    <span class="text-[10px] px-2 py-1 rounded bg-slate-800 muted" id="modelsModeBadge">mode: local</span>
+  </div>
+  <div id="modelsCompareBar" class="text-xs muted mb-2 hidden"></div>
+  <div class="flex flex-wrap gap-2 mb-3">
+    <button class="btn2 text-xs" id="modelsFavBtn">★ รายการโปรด</button>
+    <button class="btn2 text-xs" id="modelsExportBtn">Export ผลค้นหา JSON</button>
+    <button class="btn2 text-xs" id="modelsCompareBtn">เปรียบเทียบที่เลือก</button>
+  </div>
+  <div id="modelsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 min-h-[200px]"></div>
+  <div class="flex justify-center gap-2 mt-4">
+    <button class="btn2" id="modelsPrev">ก่อนหน้า</button>
+    <button class="btn2" id="modelsNext">ถัดไป</button>
+  </div>
+  <p class="text-[11px] muted mt-4">Local ≈ 50k snapshot · Live = Hugging Face API ระดับแสน–ล้านรายการ · ความรู้ผลิตภัณฑ์/เว็บ AI ใน data/ai-products · ไม่สุ่มชื่อปลอม · คลิกการ์ดดูรายละเอียดและโค้ด Python</p>
+</div>
+
+<!-- Model Detail Modal -->
+<div id="modelModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4">
+  <div class="panel max-w-2xl w-full max-h-[90vh] overflow-y-auto p-5 relative">
+    <button id="modelModalClose" class="absolute top-3 right-3 btn2 text-xs">ปิด</button>
+    <div id="modelModalBody" class="space-y-3 pr-8">
+      <p class="muted text-sm">กำลังโหลด...</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="dash" class="page hidden space-y-4">
+  <div class="panel p-4">
+    <h2 class="font-bold text-lg mb-2">System Dashboard</h2>
+    <p class="text-xs muted mb-4">ภาพรวม V2.4 Max — ข้อมูลจริงในเครื่อง + จุดเชื่อม Live HF</p>
+    <div id="dashCards" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3"></div>
+    <div id="dashExtra" class="mt-4 text-sm muted"></div>
+  </div>
+</section>
+
+<section id="products" class="page hidden space-y-4">
+  <div class="panel p-4">
+    <div class="flex flex-wrap gap-3 items-end mb-4">
+      <div class="flex-1 min-w-[200px]">
+        <h2 class="font-bold text-lg">AI Products & Websites</h2>
+        <p class="text-xs muted">ชื่อผลิตภัณฑ์และเว็บจริง — ไม่มีรายการปลอม</p>
+      </div>
+      <input id="productsQuery" class="field max-w-xs" placeholder="ค้นหาชื่อ / เว็บ...">
+      <button class="btn" id="productsSearchBtn">ค้นหา</button>
+    </div>
+    <div id="productsGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+  </div>
+</section>
+
+<section id="links" class="page hidden space-y-4">
+  <div class="panel p-4">
+    <div class="flex flex-wrap gap-3 items-end mb-4">
+      <div class="flex-1">
+        <h2 class="font-bold text-lg">All Links</h2>
+        <p class="text-xs muted">ไฟล์รวมลิงก์เดียว · data/all-links.*</p>
+      </div>
+      <input id="linksQuery" class="field max-w-xs" placeholder="กรองลิงก์...">
+      <button class="btn" id="linksSearchBtn">กรอง</button>
+      <a class="btn2 text-sm" href="/data/all-links.txt" download>ดาวน์โหลด .txt</a>
+    </div>
+    <div id="linksList" class="space-y-2 max-h-[70vh] overflow-y-auto text-sm"></div>
+  </div>
+</section>
+
+<section id="research" class="page hidden space-y-4">
+ <div class="panel p-5">
+  <h2 class="font-bold text-xl mb-1">Global Web Research & Data Collector</h2>
+  <p class="muted text-sm mb-4">ค้นหาข้อมูลจากเว็บไซต์สาธารณะทั่วโลก อ่านหน้าเว็บที่เข้าถึงได้ และบันทึกข้อมูลที่รวบรวมเป็นไฟล์ JSON หรือ TXT เพื่อนำไปวิเคราะห์ต่อด้วย AI</p>
+  <form id="researchForm" class="flex flex-col sm:flex-row gap-2">
+   <input id="researchQuery" class="field flex-1" placeholder="ค้นหาหัวข้อ เช่น Unity 6 networking best practices" required>
+   <select id="researchRegion" class="field sm:max-w-44"><option value="">ทั่วโลก</option><option value="th-th">ไทย</option><option value="us-en">สหรัฐฯ / อังกฤษ</option><option value="jp-jp">ญี่ปุ่น</option><option value="de-de">เยอรมนี</option><option value="fr-fr">ฝรั่งเศส</option></select>
+   <button class="btn" id="researchSearch">ค้นหาเว็บ</button>
+  </form>
+  <div class="flex flex-wrap gap-2 mt-3">
+   <button id="exportResearchJson" class="btn2 text-sm" disabled>ดาวน์โหลดข้อมูล JSON</button>
+   <button id="exportResearchTxt" class="btn2 text-sm" disabled>ดาวน์โหลดข้อมูล TXT</button>
+   <button id="clearResearch" class="btn2 text-sm">ล้างผลค้นหา</button>
+  </div>
+  <p id="researchStatus" class="text-xs muted mt-3">ระบบค้นหาผ่าน DuckDuckGo HTML; ผลลัพธ์ขึ้นกับการเข้าถึงของเว็บไซต์และภูมิภาค</p>
+ </div>
+ <div class="grid lg:grid-cols-[1fr_340px] gap-4">
+  <div class="panel p-4"><div class="flex justify-between gap-2 items-center mb-3"><h3 class="font-bold">ผลการค้นหา</h3><span id="researchCount" class="text-xs muted">0 รายการ</span></div><div id="researchResults" class="space-y-3 text-sm muted">พิมพ์คำค้นเพื่อเริ่มต้น</div></div>
+  <div class="panel p-4"><h3 class="font-bold mb-2">คลังข้อมูลที่นำเข้า</h3><p class="text-xs muted mb-3">เลือก “นำเข้าเนื้อหา” ในผลค้นหาเพื่อดึงข้อความจากหน้าเว็บที่เปิดอ่านได้</p><div id="researchImports" class="space-y-2 text-xs muted">ยังไม่มีข้อมูลที่นำเข้า</div></div>
+ </div>
+ <p class="text-xs muted">ข้อจำกัด: ไม่สามารถเข้าถึงเว็บที่ต้องล็อกอิน, paywall, CAPTCHA หรือบล็อกบอตได้ทุกแห่ง; เคารพ robots.txt, ลิขสิทธิ์และเงื่อนไขเว็บไซต์ ใช้ข้อมูลที่ดาวน์โหลดตามสิทธิ์ที่ได้รับ ระบบบันทึกเฉพาะข้อความ/metadata ที่อ่านได้ ไม่ดึงไฟล์ executable</p>
+</section>
+
+<section id="settings" class="page hidden space-y-4">
+<div class="panel p-5"><h2 class="font-bold text-xl mb-2">Provider Connections</h2><p class="muted text-sm mb-4">API Key ตั้งค่าที่ Backend ผ่าน environment variables เท่านั้น หน้านี้แสดงสถานะ ไม่รับหรือเก็บ secret ในเบราว์เซอร์</p><div id="providerStatus" class="space-y-3"></div><button id="checkProviders" class="btn2 mt-4">ตรวจสอบการตั้งค่า</button></div>
+<div class="panel p-5"><h3 class="font-bold mb-2">Admin Access Token</h3><p class="text-xs muted mb-2">ใช้สำหรับคำสั่งจัดการ Docker server เท่านั้น เก็บชั่วคราวใน session ของแท็บนี้</p><input id="adminToken" type="password" class="field" placeholder="ใส่ ADMIN_TOKEN ที่ตั้งบน Backend"><button id="saveToken" class="btn mt-2">ใช้ Token ในเซสชันนี้</button><p id="tokenStatus" class="text-xs muted mt-2">ยังไม่ได้ยืนยัน token</p></div>
+</section>
+</main>
+<footer class="text-center text-xs muted py-8">AIFinder V2.1 · Web Research · ตรวจสอบโค้ดแบบ static · ไม่รันไฟล์ที่อัปโหลด</footer>
+<script src="/app.js"></script></body></html>

@@ -1,0 +1,45 @@
+ถ้าจะเปลี่ยน EP ก็ก็อปData ของEPที่สูงกว่ามาทับได้เลย
+
+ถ้าจะเปลี่ยน*ของเซิฟ ให้ไปที่ data/GLogic/glogicแล้วเปิดโดยใช้โปรแกรม Winrarแล้วแตกไฟล์ออกมาหาชื่อคำว่าdefault.charclass แล้วเปิดโดยใช้โปรแกรมRan File Editor
+แล้วหาคำว่า
+fEXP_SCALE (72.0f แก้ได้ถึง 999999)
+fITEM_DROP_SCALE (25.0f แก้ได้ถึง 999999)
+fMONEY_DROP_SCALE (25.0f แก้ได้ถึง 999999)
+fITEM_DROP_LOWER_SCALE (25.0f แก้ได้ถึง 999999)
+แก้เสร็จ ก็กดSave แล้วมาเข้า ที่glogicที่เป็นไฟล์.rar คลิ้กเข้าไป แล้วหาคำว่าAdd กดเข้าไป เลือกไฟล์ที่ชื่อdefault.charclass แล้วกดOK
+เป็นอันจบ
+
+เทคนิคต่างๆ
+1การปรับคุนและอัตราการตี
+
+การปรับการ คูน ของ เซพ และอัตราการ
+
+การเซ็ตการ * [คูน>เซ็ตที่ใฟล์ default.charclass [ใน GLogic>
+ของดาต้าเรน ในเซิพเรา
+
+เข้าที่ GLogic ในดาต้า แรนเถื่อน
+
+คลิกขวา GLogic.rcc >>Open with>>winrar
+คลิกที่ใฟล์ default.charclass
+กด Alt E ใม่ต้องเลือกกด OK
+
+จะพบแฟ้ม ชื่อ glogic แล้วคลิกเข้า จะพบใฟล์ default.charclass
+
+ค้นตรงบรรทัดนี้
+
+sNID_STARTMAP [0,0>
+dwSTART_GATE 0
+wMAX_LEVEL 250 เลเวลตัน 250
+wLVL_STATS_P 3 อัพ1เลเวลใด้ค่าสเตตัส 3
+wLVL_SKILL_P 1 อัพ1เลเวลใด้ค่าสกิลพ๊อย 1
+fLVL_EXP_G 50 >>
+fLVL_EXP_S 1.4 >> 2อันนี้ใม่รู้งับ ^^ fEXP_SCALE 64.0f <<<<<<<< อีเอคพี
+fMONEY_DROP_SCALE 8.0f <<<<<<<<< เงิน
+fITEM_DROP_SCALE 100.8f <<<<<<<< Item
+fITEM_DROP_LOWER_SCALE 10.6f <<<< Item
+เมื่อเซ็ตเสร็จแล้ว ก็ กด คลิกขวา แล้ว
+
+Copy ที่ใฟล์ default.charclass [ที่ใด้เซ็ตใว้>
+
+เข้าที่ GLogic.rcc >>Open with>>winrar
+แล้วกด Ctrl V คลิก OK
