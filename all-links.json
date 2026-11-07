@@ -1,0 +1,1227 @@
+{
+  "version": "2.3.1",
+  "title": "AIFinder — All links in one file",
+  "generatedAt": "2026-11-04T09:28:38.072Z",
+  "count": 203,
+  "note": "รวมลิงก์ผลิตภัณฑ์ AI + ฮับสำคัญ + Top โมเดลจาก local seed (URL จริงเท่านั้น)",
+  "links": [
+    {
+      "name": "argmaxinc/whisperkit-coreml",
+      "url": "https://huggingface.co/argmaxinc/whisperkit-coreml",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "audio-cpp/audio.cpp-gguf",
+      "url": "https://huggingface.co/audio-cpp/audio.cpp-gguf",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "coqui/XTTS-v2",
+      "url": "https://huggingface.co/coqui/XTTS-v2",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com",
+      "category": "Audio",
+      "source": "Descript"
+    },
+    {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "category": "Audio",
+      "source": "ElevenLabs"
+    },
+    {
+      "name": "hexgrad/Kokoro-82M",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "HF models filter automatic-speech-recognition",
+      "url": "https://huggingface.co/models?pipeline_tag=automatic-speech-recognition",
+      "category": "Audio",
+      "source": "hub"
+    },
+    {
+      "name": "jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+      "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-japanese",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "jonatasgrosman/wav2vec2-large-xlsr-53-russian",
+      "url": "https://huggingface.co/jonatasgrosman/wav2vec2-large-xlsr-53-russian",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "laion/clap-htsat-fused",
+      "url": "https://huggingface.co/laion/clap-htsat-fused",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "MiniMaxAI/MiniMax-H3",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "OpenAI Whisper (HF)",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "category": "Audio",
+      "source": "OpenAI"
+    },
+    {
+      "name": "openai/whisper-large-v3-turbo",
+      "url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "openai/whisper-small",
+      "url": "https://huggingface.co/openai/whisper-small",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "pyannote/segmentation-3.0",
+      "url": "https://huggingface.co/pyannote/segmentation-3.0",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "pyannote/speaker-diarization-3.1",
+      "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "pyannote/speaker-diarization-community-1",
+      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "pyannote/wespeaker-voxceleb-resnet34-LM",
+      "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Serveurperso/YuE2-GGUF",
+      "url": "https://huggingface.co/Serveurperso/YuE2-GGUF",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Sunous Music",
+      "url": "https://huggingface.co/models?pipeline_tag=text-to-audio",
+      "category": "Audio",
+      "source": "Various"
+    },
+    {
+      "name": "Systran/faster-whisper-small",
+      "url": "https://huggingface.co/Systran/faster-whisper-small",
+      "category": "Audio",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "01.AI Yi",
+      "url": "https://www.01.ai",
+      "category": "Chat",
+      "source": "01.AI"
+    },
+    {
+      "name": "AI21 Labs",
+      "url": "https://www.ai21.com",
+      "category": "Chat",
+      "source": "AI21"
+    },
+    {
+      "name": "AIFinder related - HF models filter text-generation",
+      "url": "https://huggingface.co/models?pipeline_tag=text-generation",
+      "category": "Chat",
+      "source": "hub"
+    },
+    {
+      "name": "Aleph Alpha",
+      "url": "https://aleph-alpha.com",
+      "category": "Chat",
+      "source": "Aleph Alpha"
+    },
+    {
+      "name": "Amazon Bedrock",
+      "url": "https://aws.amazon.com/bedrock/",
+      "category": "Chat",
+      "source": "Amazon AWS"
+    },
+    {
+      "name": "amazon/chronos-2",
+      "url": "https://huggingface.co/amazon/chronos-2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "amazon/chronos-bolt-small",
+      "url": "https://huggingface.co/amazon/chronos-bolt-small",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Anthropic Console",
+      "url": "https://console.anthropic.com",
+      "category": "Chat",
+      "source": "Anthropic"
+    },
+    {
+      "name": "Anthropic Docs",
+      "url": "https://docs.anthropic.com",
+      "category": "Chat",
+      "source": "Anthropic"
+    },
+    {
+      "name": "Anthropic Research",
+      "url": "https://www.anthropic.com/research",
+      "category": "Chat",
+      "source": "Anthropic"
+    },
+    {
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai",
+      "category": "Chat",
+      "source": "Artificial Analysis"
+    },
+    {
+      "name": "autogluon/chronos-2",
+      "url": "https://huggingface.co/autogluon/chronos-2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "autogluon/chronos-bolt-small",
+      "url": "https://huggingface.co/autogluon/chronos-bolt-small",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Azure OpenAI",
+      "url": "https://azure.microsoft.com/products/ai-services/openai-service",
+      "category": "Chat",
+      "source": "Microsoft"
+    },
+    {
+      "name": "BAAI/bge-base-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "BAAI/bge-large-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "BAAI/bge-m3",
+      "url": "https://huggingface.co/BAAI/bge-m3",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "BAAI/bge-reranker-v2-m3",
+      "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "BAAI/bge-small-en-v1.5",
+      "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Bingsu/adetailer",
+      "url": "https://huggingface.co/Bingsu/adetailer",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Character.AI",
+      "url": "https://character.ai",
+      "category": "Chat",
+      "source": "Character.AI"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chatgpt.com",
+      "category": "Chat",
+      "source": "OpenAI"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "category": "Chat",
+      "source": "Anthropic"
+    },
+    {
+      "name": "Cohere",
+      "url": "https://cohere.com",
+      "category": "Chat",
+      "source": "Cohere"
+    },
+    {
+      "name": "datasocietyco/bge-base-en-v1.5-course-recommender-v5",
+      "url": "https://huggingface.co/datasocietyco/bge-base-en-v1.5-course-recommender-v5",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3.2",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "distilbert/distilbert-base-uncased",
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "facebook/contriever",
+      "url": "https://huggingface.co/facebook/contriever",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "facebook/esm2_t33_650M_UR50D",
+      "url": "https://huggingface.co/facebook/esm2_t33_650M_UR50D",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "facebook/opt-125m",
+      "url": "https://huggingface.co/facebook/opt-125m",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "FacebookAI/roberta-base",
+      "url": "https://huggingface.co/FacebookAI/roberta-base",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "FacebookAI/roberta-large",
+      "url": "https://huggingface.co/FacebookAI/roberta-large",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "FacebookAI/xlm-roberta-base",
+      "url": "https://huggingface.co/FacebookAI/xlm-roberta-base",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "category": "Chat",
+      "source": "Google"
+    },
+    {
+      "name": "Google AI for Developers",
+      "url": "https://ai.google.dev",
+      "category": "Chat",
+      "source": "Google"
+    },
+    {
+      "name": "Google AI Studio",
+      "url": "https://aistudio.google.com",
+      "category": "Chat",
+      "source": "Google"
+    },
+    {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google",
+      "category": "Chat",
+      "source": "Google DeepMind"
+    },
+    {
+      "name": "google-bert/bert-base-uncased",
+      "url": "https://huggingface.co/google-bert/bert-base-uncased",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "google-t5/t5-small",
+      "url": "https://huggingface.co/google-t5/t5-small",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "google/electra-base-discriminator",
+      "url": "https://huggingface.co/google/electra-base-discriminator",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Grammarly",
+      "url": "https://www.grammarly.com",
+      "category": "Chat",
+      "source": "Grammarly"
+    },
+    {
+      "name": "Grok",
+      "url": "https://x.ai",
+      "category": "Chat",
+      "source": "xAI"
+    },
+    {
+      "name": "Groq",
+      "url": "https://groq.com",
+      "category": "Chat",
+      "source": "Groq"
+    },
+    {
+      "name": "IBM watsonx",
+      "url": "https://www.ibm.com/watsonx",
+      "category": "Chat",
+      "source": "IBM"
+    },
+    {
+      "name": "ibm-granite/granite-embedding-small-english-r2",
+      "url": "https://huggingface.co/ibm-granite/granite-embedding-small-english-r2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Inflection Pi",
+      "url": "https://pi.ai",
+      "category": "Chat",
+      "source": "Inflection"
+    },
+    {
+      "name": "intfloat/multilingual-e5-base",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-base",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "intfloat/multilingual-e5-large",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "intfloat/multilingual-e5-small",
+      "url": "https://huggingface.co/intfloat/multilingual-e5-small",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Jasper",
+      "url": "https://www.jasper.ai",
+      "category": "Chat",
+      "source": "Jasper"
+    },
+    {
+      "name": "LMSYS Chatbot Arena",
+      "url": "https://chat.lmsys.org",
+      "category": "Chat",
+      "source": "LMSYS"
+    },
+    {
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "url": "https://copilot.microsoft.com",
+      "category": "Chat",
+      "source": "Microsoft"
+    },
+    {
+      "name": "microsoft/mdeberta-v3-base",
+      "url": "https://huggingface.co/microsoft/mdeberta-v3-base",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Mistral AI",
+      "url": "https://mistral.ai",
+      "category": "Chat",
+      "source": "Mistral"
+    },
+    {
+      "name": "Notion AI",
+      "url": "https://www.notion.com/product/ai",
+      "category": "Chat",
+      "source": "Notion"
+    },
+    {
+      "name": "nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "url": "https://huggingface.co/nvidia/Qwen3.6-35B-A3B-NVFP4",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "OpenAI Docs",
+      "url": "https://platform.openai.com/docs",
+      "category": "Chat",
+      "source": "OpenAI"
+    },
+    {
+      "name": "OpenAI Platform",
+      "url": "https://platform.openai.com",
+      "category": "Chat",
+      "source": "OpenAI"
+    },
+    {
+      "name": "OpenAI Research",
+      "url": "https://openai.com/research",
+      "category": "Chat",
+      "source": "OpenAI"
+    },
+    {
+      "name": "openai-community/gpt2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "openai/gpt-oss-20b",
+      "url": "https://huggingface.co/openai/gpt-oss-20b",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "category": "Chat",
+      "source": "OpenRouter"
+    },
+    {
+      "name": "ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-35B-A3B-GGUF",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "ornith-ai/Ornith-1.5-9B-GGUF",
+      "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "Chat",
+      "source": "Perplexity"
+    },
+    {
+      "name": "Poe",
+      "url": "https://poe.com",
+      "category": "Chat",
+      "source": "Quora"
+    },
+    {
+      "name": "Qwen",
+      "url": "https://qwenlm.github.io",
+      "category": "Chat",
+      "source": "Alibaba / Qwen"
+    },
+    {
+      "name": "Qwen/Qwen2.5-0.5B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen2.5-1.5B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen2.5-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-1.7B",
+      "url": "https://huggingface.co/Qwen/Qwen3-1.7B",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-14B",
+      "url": "https://huggingface.co/Qwen/Qwen3-14B",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-4B",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-8B",
+      "url": "https://huggingface.co/Qwen/Qwen3-8B",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-Embedding-0.6B",
+      "url": "https://huggingface.co/Qwen/Qwen3-Embedding-0.6B",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Salesforce Einstein",
+      "url": "https://www.salesforce.com/artificial-intelligence/",
+      "category": "Chat",
+      "source": "Salesforce"
+    },
+    {
+      "name": "SamLowe/roberta-base-go_emotions",
+      "url": "https://huggingface.co/SamLowe/roberta-base-go_emotions",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "unsloth/Qwen3.8-27B-GGUF",
+      "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Vertex AI",
+      "url": "https://cloud.google.com/vertex-ai",
+      "category": "Chat",
+      "source": "Google Cloud"
+    },
+    {
+      "name": "xAI API Docs",
+      "url": "https://docs.x.ai",
+      "category": "Chat",
+      "source": "xAI"
+    },
+    {
+      "name": "Xenova/all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/Xenova/all-MiniLM-L6-v2",
+      "category": "Chat",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "You.com",
+      "url": "https://you.com",
+      "category": "Chat",
+      "source": "You.com"
+    },
+    {
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "category": "Coding",
+      "source": "Aider"
+    },
+    {
+      "name": "Amazon CodeWhisperer / Q",
+      "url": "https://aws.amazon.com/q/developer/",
+      "category": "Coding",
+      "source": "Amazon"
+    },
+    {
+      "name": "Codeium",
+      "url": "https://codeium.com",
+      "category": "Coding",
+      "source": "Codeium"
+    },
+    {
+      "name": "Continue.dev",
+      "url": "https://continue.dev",
+      "category": "Coding",
+      "source": "Continue"
+    },
+    {
+      "name": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2",
+      "category": "Coding",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "category": "Coding",
+      "source": "Anysphere"
+    },
+    {
+      "name": "dphn/dolphin-2.9.1-yi-1.5-34b",
+      "url": "https://huggingface.co/dphn/dolphin-2.9.1-yi-1.5-34b",
+      "category": "Coding",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "category": "Coding",
+      "source": "GitHub / Microsoft"
+    },
+    {
+      "name": "nomic-ai/nomic-embed-text-v1.5",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "category": "Coding",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Phind",
+      "url": "https://www.phind.com",
+      "category": "Coding",
+      "source": "Phind"
+    },
+    {
+      "name": "sentence-transformers/all-MiniLM-L6-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+      "category": "Coding",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "sentence-transformers/all-mpnet-base-v2",
+      "url": "https://huggingface.co/sentence-transformers/all-mpnet-base-v2",
+      "category": "Coding",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "url": "https://sourcegraph.com/cody",
+      "category": "Coding",
+      "source": "Sourcegraph"
+    },
+    {
+      "name": "Tabnine",
+      "url": "https://www.tabnine.com",
+      "category": "Coding",
+      "source": "Tabnine"
+    },
+    {
+      "name": "Adobe Firefly",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "category": "Image",
+      "source": "Adobe"
+    },
+    {
+      "name": "baidu/Unlimited-OCR",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Black Forest Labs",
+      "url": "https://blackforestlabs.ai",
+      "category": "Image",
+      "source": "Black Forest Labs"
+    },
+    {
+      "name": "Canva Magic Studio",
+      "url": "https://www.canva.com/magic/",
+      "category": "Image",
+      "source": "Canva"
+    },
+    {
+      "name": "Civitai",
+      "url": "https://civitai.com",
+      "category": "Image",
+      "source": "Civitai"
+    },
+    {
+      "name": "Comfy-Org/Krea-2",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Comfy-Org/MiniMax-H3",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Comfy-Org/MOSS-Image",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Comfy-Org/Qwen-Image-2.1",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Comfy-Org/Z-Image-Turbo",
+      "url": "https://huggingface.co/Comfy-Org/Z-Image-Turbo",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Diffusers",
+      "url": "https://huggingface.co/docs/diffusers",
+      "category": "Image",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Figma AI",
+      "url": "https://www.figma.com",
+      "category": "Image",
+      "source": "Figma"
+    },
+    {
+      "name": "google/gemma-4-26B-A4B-it",
+      "url": "https://huggingface.co/google/gemma-4-26B-A4B-it",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "google/gemma-4-E4B-it",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "google/vit-base-patch16-224",
+      "url": "https://huggingface.co/google/vit-base-patch16-224",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "HF models filter text-to-image",
+      "url": "https://huggingface.co/models?pipeline_tag=text-to-image",
+      "category": "Image",
+      "source": "hub"
+    },
+    {
+      "name": "Ideogram",
+      "url": "https://ideogram.ai",
+      "category": "Image",
+      "source": "Ideogram"
+    },
+    {
+      "name": "ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "url": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Leonardo.AI",
+      "url": "https://leonardo.ai",
+      "category": "Image",
+      "source": "Leonardo"
+    },
+    {
+      "name": "microsoft/Florence-2-base",
+      "url": "https://huggingface.co/microsoft/Florence-2-base",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "category": "Image",
+      "source": "Midjourney"
+    },
+    {
+      "name": "openai/clip-vit-base-patch32",
+      "url": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "openai/clip-vit-large-patch14",
+      "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "prithivMLmods/Gender-Classifier-Mini",
+      "url": "https://huggingface.co/prithivMLmods/Gender-Classifier-Mini",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-VL-4B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3-VL-8B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.5-0.8B",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.5-4B",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.5-9B",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.6-35B-A3B",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.6-35B-A3B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B-FP8",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.8-27B-FP8",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Qwen/Qwen3.8-Flash-Next",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Stability AI",
+      "url": "https://stability.ai",
+      "category": "Image",
+      "source": "Stability AI"
+    },
+    {
+      "name": "Stability Platform",
+      "url": "https://platform.stability.ai",
+      "category": "Image",
+      "source": "Stability AI"
+    },
+    {
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "timm/mobilenetv3_small_100.lamb_in1k",
+      "url": "https://huggingface.co/timm/mobilenetv3_small_100.lamb_in1k",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "zai-org/GLM-5.3-Flash",
+      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "category": "Image",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Anyscale / Ray",
+      "url": "https://www.anyscale.com",
+      "category": "Open Source",
+      "source": "Anyscale"
+    },
+    {
+      "name": "arXiv cs.AI",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "category": "Open Source",
+      "source": "Cornell"
+    },
+    {
+      "name": "DeepSeek on HF",
+      "url": "https://huggingface.co/deepseek-ai",
+      "category": "Open Source",
+      "source": "DeepSeek"
+    },
+    {
+      "name": "Fireworks AI",
+      "url": "https://fireworks.ai",
+      "category": "Open Source",
+      "source": "Fireworks"
+    },
+    {
+      "name": "Haystack",
+      "url": "https://haystack.deepset.ai",
+      "category": "Open Source",
+      "source": "deepset"
+    },
+    {
+      "name": "Hugging Face Datasets",
+      "url": "https://huggingface.co/datasets",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Hugging Face Docs",
+      "url": "https://huggingface.co/docs",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Hugging Face Hub",
+      "url": "https://huggingface.co",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Hugging Face Models",
+      "url": "https://huggingface.co/models",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Hugging Face Models API",
+      "url": "https://huggingface.co/api/models",
+      "category": "Open Source",
+      "source": "API"
+    },
+    {
+      "name": "Hugging Face Spaces",
+      "url": "https://huggingface.co/spaces",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Kaggle Models",
+      "url": "https://www.kaggle.com/models",
+      "category": "Open Source",
+      "source": "Google"
+    },
+    {
+      "name": "LangChain",
+      "url": "https://www.langchain.com",
+      "category": "Open Source",
+      "source": "LangChain"
+    },
+    {
+      "name": "llama.cpp",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "category": "Open Source",
+      "source": "ggerganov"
+    },
+    {
+      "name": "LlamaIndex",
+      "url": "https://www.llamaindex.ai",
+      "category": "Open Source",
+      "source": "LlamaIndex"
+    },
+    {
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
+      "category": "Open Source",
+      "source": "LM Studio"
+    },
+    {
+      "name": "Meta AI",
+      "url": "https://ai.meta.com",
+      "category": "Open Source",
+      "source": "Meta"
+    },
+    {
+      "name": "Meta Llama",
+      "url": "https://llama.meta.com",
+      "category": "Open Source",
+      "source": "Meta"
+    },
+    {
+      "name": "Modal",
+      "url": "https://modal.com",
+      "category": "Open Source",
+      "source": "Modal"
+    },
+    {
+      "name": "ModelScope",
+      "url": "https://modelscope.cn",
+      "category": "Open Source",
+      "source": "Alibaba DAMO"
+    },
+    {
+      "name": "NVIDIA AI",
+      "url": "https://www.nvidia.com/en-us/ai/",
+      "category": "Open Source",
+      "source": "NVIDIA"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "category": "Open Source",
+      "source": "Ollama"
+    },
+    {
+      "name": "Papers with Code",
+      "url": "https://paperswithcode.com",
+      "category": "Open Source",
+      "source": "Community"
+    },
+    {
+      "name": "PEFT / LoRA docs",
+      "url": "https://huggingface.co/docs/peft",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Qwen on HF",
+      "url": "https://huggingface.co/Qwen",
+      "category": "Open Source",
+      "source": "Qwen"
+    },
+    {
+      "name": "Replicate",
+      "url": "https://replicate.com",
+      "category": "Open Source",
+      "source": "Replicate"
+    },
+    {
+      "name": "Text Generation Inference",
+      "url": "https://github.com/huggingface/text-generation-inference",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "Together AI",
+      "url": "https://www.together.ai",
+      "category": "Open Source",
+      "source": "Together"
+    },
+    {
+      "name": "Transformers",
+      "url": "https://huggingface.co/docs/transformers",
+      "category": "Open Source",
+      "source": "Hugging Face"
+    },
+    {
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "Open Source",
+      "source": "vLLM Project"
+    },
+    {
+      "name": "Weights & Biases",
+      "url": "https://wandb.ai",
+      "category": "Open Source",
+      "source": "W&B"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://www.deepseek.com",
+      "category": "Reasoning",
+      "source": "DeepSeek"
+    },
+    {
+      "name": "Comfy-Org/Wan-2.1",
+      "url": "https://huggingface.co/Comfy-Org/Wan-2.1",
+      "category": "Video",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "Comfy-Org/Wan-2.2",
+      "url": "https://huggingface.co/Comfy-Org/Wan-2.2",
+      "category": "Video",
+      "source": "models-seed-top"
+    },
+    {
+      "name": "HF models filter text-to-video",
+      "url": "https://huggingface.co/models?pipeline_tag=text-to-video",
+      "category": "Video",
+      "source": "hub"
+    },
+    {
+      "name": "Kling AI",
+      "url": "https://klingai.com",
+      "category": "Video",
+      "source": "Kuaishou"
+    },
+    {
+      "name": "Luma Dream Machine",
+      "url": "https://lumalabs.ai/dream-machine",
+      "category": "Video",
+      "source": "Luma AI"
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.art",
+      "category": "Video",
+      "source": "Pika"
+    },
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "category": "Video",
+      "source": "Runway"
+    },
+    {
+      "name": "Sora (OpenAI)",
+      "url": "https://openai.com/sora",
+      "category": "Video",
+      "source": "OpenAI"
+    }
+  ]
+}

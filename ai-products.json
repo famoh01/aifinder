@@ -1,0 +1,801 @@
+{
+  "version": "2.3.1",
+  "updatedAt": "2026-11-04T08:42:35.101Z",
+  "count": 98,
+  "categoryCounts": {
+    "Chat": 38,
+    "Coding": 9,
+    "Open Source": 30,
+    "Image": 11,
+    "Reasoning": 1,
+    "Video": 5,
+    "Audio": 4
+  },
+  "products": [
+    {
+      "name": "ChatGPT",
+      "org": "OpenAI",
+      "url": "https://chatgpt.com",
+      "category": "Chat",
+      "type": "product",
+      "note": "Consumer chat product"
+    },
+    {
+      "name": "OpenAI Platform",
+      "org": "OpenAI",
+      "url": "https://platform.openai.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "GPT, o-series, Whisper, images APIs"
+    },
+    {
+      "name": "OpenAI Docs",
+      "org": "OpenAI",
+      "url": "https://platform.openai.com/docs",
+      "category": "Chat",
+      "type": "docs",
+      "note": "Official API documentation"
+    },
+    {
+      "name": "Claude",
+      "org": "Anthropic",
+      "url": "https://claude.ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "Claude chat product"
+    },
+    {
+      "name": "Anthropic Console",
+      "org": "Anthropic",
+      "url": "https://console.anthropic.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "Claude API console"
+    },
+    {
+      "name": "Anthropic Docs",
+      "org": "Anthropic",
+      "url": "https://docs.anthropic.com",
+      "category": "Chat",
+      "type": "docs",
+      "note": "Claude API docs"
+    },
+    {
+      "name": "Gemini",
+      "org": "Google",
+      "url": "https://gemini.google.com",
+      "category": "Chat",
+      "type": "product",
+      "note": "Gemini consumer app"
+    },
+    {
+      "name": "Google AI Studio",
+      "org": "Google",
+      "url": "https://aistudio.google.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "Gemini developer studio"
+    },
+    {
+      "name": "Google AI for Developers",
+      "org": "Google",
+      "url": "https://ai.google.dev",
+      "category": "Chat",
+      "type": "docs",
+      "note": "Gemini API developer site"
+    },
+    {
+      "name": "Vertex AI",
+      "org": "Google Cloud",
+      "url": "https://cloud.google.com/vertex-ai",
+      "category": "Chat",
+      "type": "platform",
+      "note": "Enterprise Google AI platform"
+    },
+    {
+      "name": "Grok",
+      "org": "xAI",
+      "url": "https://x.ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "xAI Grok"
+    },
+    {
+      "name": "xAI API Docs",
+      "org": "xAI",
+      "url": "https://docs.x.ai",
+      "category": "Chat",
+      "type": "docs",
+      "note": "xAI API documentation"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "org": "Microsoft",
+      "url": "https://copilot.microsoft.com",
+      "category": "Chat",
+      "type": "product",
+      "note": "Microsoft Copilot assistant"
+    },
+    {
+      "name": "Azure OpenAI",
+      "org": "Microsoft",
+      "url": "https://azure.microsoft.com/products/ai-services/openai-service",
+      "category": "Chat",
+      "type": "api",
+      "note": "OpenAI models on Azure"
+    },
+    {
+      "name": "Amazon Bedrock",
+      "org": "Amazon AWS",
+      "url": "https://aws.amazon.com/bedrock/",
+      "category": "Chat",
+      "type": "platform",
+      "note": "Managed multi-model API on AWS"
+    },
+    {
+      "name": "Perplexity",
+      "org": "Perplexity",
+      "url": "https://www.perplexity.ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "Search-augmented AI"
+    },
+    {
+      "name": "Character.AI",
+      "org": "Character.AI",
+      "url": "https://character.ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "Character chat platform"
+    },
+    {
+      "name": "Poe",
+      "org": "Quora",
+      "url": "https://poe.com",
+      "category": "Chat",
+      "type": "product",
+      "note": "Multi-bot chat aggregator"
+    },
+    {
+      "name": "You.com",
+      "org": "You.com",
+      "url": "https://you.com",
+      "category": "Chat",
+      "type": "product",
+      "note": "AI search assistant"
+    },
+    {
+      "name": "Phind",
+      "org": "Phind",
+      "url": "https://www.phind.com",
+      "category": "Coding",
+      "type": "product",
+      "note": "Developer-oriented AI search"
+    },
+    {
+      "name": "Hugging Face Hub",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Largest public model hub"
+    },
+    {
+      "name": "Hugging Face Models",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/models",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Model search; public scale 200k+"
+    },
+    {
+      "name": "Hugging Face Datasets",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/datasets",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Public datasets"
+    },
+    {
+      "name": "Hugging Face Spaces",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/spaces",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Demo apps for models"
+    },
+    {
+      "name": "Hugging Face Docs",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/docs",
+      "category": "Open Source",
+      "type": "docs",
+      "note": "Transformers, Diffusers, Hub docs"
+    },
+    {
+      "name": "Transformers",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/docs/transformers",
+      "category": "Open Source",
+      "type": "library",
+      "note": "Core NLP/multimodal library"
+    },
+    {
+      "name": "Diffusers",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/docs/diffusers",
+      "category": "Image",
+      "type": "library",
+      "note": "Diffusion models library"
+    },
+    {
+      "name": "PEFT / LoRA docs",
+      "org": "Hugging Face",
+      "url": "https://huggingface.co/docs/peft",
+      "category": "Open Source",
+      "type": "library",
+      "note": "Parameter-efficient fine-tuning"
+    },
+    {
+      "name": "ModelScope",
+      "org": "Alibaba DAMO",
+      "url": "https://modelscope.cn",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "China-focused model hub"
+    },
+    {
+      "name": "Kaggle Models",
+      "org": "Google",
+      "url": "https://www.kaggle.com/models",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Models and notebooks"
+    },
+    {
+      "name": "Civitai",
+      "org": "Civitai",
+      "url": "https://civitai.com",
+      "category": "Image",
+      "type": "hub",
+      "note": "Community image models/LoRAs"
+    },
+    {
+      "name": "OpenRouter",
+      "org": "OpenRouter",
+      "url": "https://openrouter.ai",
+      "category": "Chat",
+      "type": "api",
+      "note": "Unified multi-provider API"
+    },
+    {
+      "name": "Together AI",
+      "org": "Together",
+      "url": "https://www.together.ai",
+      "category": "Open Source",
+      "type": "api",
+      "note": "Open model inference"
+    },
+    {
+      "name": "Fireworks AI",
+      "org": "Fireworks",
+      "url": "https://fireworks.ai",
+      "category": "Open Source",
+      "type": "api",
+      "note": "Fast open-model inference"
+    },
+    {
+      "name": "Groq",
+      "org": "Groq",
+      "url": "https://groq.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "Low-latency inference"
+    },
+    {
+      "name": "Replicate",
+      "org": "Replicate",
+      "url": "https://replicate.com",
+      "category": "Open Source",
+      "type": "api",
+      "note": "Run models via API"
+    },
+    {
+      "name": "Anyscale / Ray",
+      "org": "Anyscale",
+      "url": "https://www.anyscale.com",
+      "category": "Open Source",
+      "type": "platform",
+      "note": "Distributed AI compute"
+    },
+    {
+      "name": "Modal",
+      "org": "Modal",
+      "url": "https://modal.com",
+      "category": "Open Source",
+      "type": "platform",
+      "note": "Serverless GPU jobs"
+    },
+    {
+      "name": "Ollama",
+      "org": "Ollama",
+      "url": "https://ollama.com",
+      "category": "Open Source",
+      "type": "tool",
+      "note": "Local LLM runner"
+    },
+    {
+      "name": "LM Studio",
+      "org": "LM Studio",
+      "url": "https://lmstudio.ai",
+      "category": "Open Source",
+      "type": "tool",
+      "note": "Desktop local models UI"
+    },
+    {
+      "name": "llama.cpp",
+      "org": "ggerganov",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "category": "Open Source",
+      "type": "tool",
+      "note": "GGUF local inference"
+    },
+    {
+      "name": "vLLM",
+      "org": "vLLM Project",
+      "url": "https://github.com/vllm-project/vllm",
+      "category": "Open Source",
+      "type": "tool",
+      "note": "High-throughput serving"
+    },
+    {
+      "name": "Text Generation Inference",
+      "org": "Hugging Face",
+      "url": "https://github.com/huggingface/text-generation-inference",
+      "category": "Open Source",
+      "type": "tool",
+      "note": "HF production server"
+    },
+    {
+      "name": "Meta Llama",
+      "org": "Meta",
+      "url": "https://llama.meta.com",
+      "category": "Open Source",
+      "type": "model-family",
+      "note": "Llama open weights"
+    },
+    {
+      "name": "Meta AI",
+      "org": "Meta",
+      "url": "https://ai.meta.com",
+      "category": "Open Source",
+      "type": "research",
+      "note": "Meta AI research and products"
+    },
+    {
+      "name": "Mistral AI",
+      "org": "Mistral",
+      "url": "https://mistral.ai",
+      "category": "Chat",
+      "type": "api",
+      "note": "Mistral models and La Plateforme"
+    },
+    {
+      "name": "DeepSeek",
+      "org": "DeepSeek",
+      "url": "https://www.deepseek.com",
+      "category": "Reasoning",
+      "type": "api",
+      "note": "Chat and reasoning models"
+    },
+    {
+      "name": "DeepSeek on HF",
+      "org": "DeepSeek",
+      "url": "https://huggingface.co/deepseek-ai",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Official DeepSeek model repos"
+    },
+    {
+      "name": "Qwen",
+      "org": "Alibaba / Qwen",
+      "url": "https://qwenlm.github.io",
+      "category": "Chat",
+      "type": "model-family",
+      "note": "Qwen family"
+    },
+    {
+      "name": "Qwen on HF",
+      "org": "Qwen",
+      "url": "https://huggingface.co/Qwen",
+      "category": "Open Source",
+      "type": "hub",
+      "note": "Qwen model repos"
+    },
+    {
+      "name": "01.AI Yi",
+      "org": "01.AI",
+      "url": "https://www.01.ai",
+      "category": "Chat",
+      "type": "model-family",
+      "note": "Yi model family"
+    },
+    {
+      "name": "Cohere",
+      "org": "Cohere",
+      "url": "https://cohere.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "Command, Embed, Rerank"
+    },
+    {
+      "name": "AI21 Labs",
+      "org": "AI21",
+      "url": "https://www.ai21.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "Jamba and Jurassic models"
+    },
+    {
+      "name": "Inflection Pi",
+      "org": "Inflection",
+      "url": "https://pi.ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "Pi personal AI"
+    },
+    {
+      "name": "Aleph Alpha",
+      "org": "Aleph Alpha",
+      "url": "https://aleph-alpha.com",
+      "category": "Chat",
+      "type": "api",
+      "note": "European LLM provider"
+    },
+    {
+      "name": "Stability AI",
+      "org": "Stability AI",
+      "url": "https://stability.ai",
+      "category": "Image",
+      "type": "api",
+      "note": "Stable Diffusion family"
+    },
+    {
+      "name": "Stability Platform",
+      "org": "Stability AI",
+      "url": "https://platform.stability.ai",
+      "category": "Image",
+      "type": "api",
+      "note": "Stability developer platform"
+    },
+    {
+      "name": "Black Forest Labs",
+      "org": "Black Forest Labs",
+      "url": "https://blackforestlabs.ai",
+      "category": "Image",
+      "type": "model-family",
+      "note": "FLUX models"
+    },
+    {
+      "name": "Midjourney",
+      "org": "Midjourney",
+      "url": "https://www.midjourney.com",
+      "category": "Image",
+      "type": "product",
+      "note": "Image generation product"
+    },
+    {
+      "name": "Adobe Firefly",
+      "org": "Adobe",
+      "url": "https://www.adobe.com/products/firefly.html",
+      "category": "Image",
+      "type": "product",
+      "note": "Adobe generative AI"
+    },
+    {
+      "name": "Ideogram",
+      "org": "Ideogram",
+      "url": "https://ideogram.ai",
+      "category": "Image",
+      "type": "product",
+      "note": "Text-aware image generation"
+    },
+    {
+      "name": "Leonardo.AI",
+      "org": "Leonardo",
+      "url": "https://leonardo.ai",
+      "category": "Image",
+      "type": "product",
+      "note": "Creative image platform"
+    },
+    {
+      "name": "Runway",
+      "org": "Runway",
+      "url": "https://runwayml.com",
+      "category": "Video",
+      "type": "product",
+      "note": "AI video tools"
+    },
+    {
+      "name": "Pika",
+      "org": "Pika",
+      "url": "https://pika.art",
+      "category": "Video",
+      "type": "product",
+      "note": "AI video generation"
+    },
+    {
+      "name": "Luma Dream Machine",
+      "org": "Luma AI",
+      "url": "https://lumalabs.ai/dream-machine",
+      "category": "Video",
+      "type": "product",
+      "note": "Video generation"
+    },
+    {
+      "name": "Kling AI",
+      "org": "Kuaishou",
+      "url": "https://klingai.com",
+      "category": "Video",
+      "type": "product",
+      "note": "Video generation product"
+    },
+    {
+      "name": "Sora (OpenAI)",
+      "org": "OpenAI",
+      "url": "https://openai.com/sora",
+      "category": "Video",
+      "type": "product",
+      "note": "OpenAI video model product page"
+    },
+    {
+      "name": "ElevenLabs",
+      "org": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "category": "Audio",
+      "type": "api",
+      "note": "TTS and voice cloning"
+    },
+    {
+      "name": "OpenAI Whisper (HF)",
+      "org": "OpenAI",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "category": "Audio",
+      "type": "model",
+      "note": "Widely used ASR open weights"
+    },
+    {
+      "name": "Sunous Music",
+      "org": "Various",
+      "url": "https://huggingface.co/models?pipeline_tag=text-to-audio",
+      "category": "Audio",
+      "type": "hub",
+      "note": "Discover audio models on HF"
+    },
+    {
+      "name": "Descript",
+      "org": "Descript",
+      "url": "https://www.descript.com",
+      "category": "Audio",
+      "type": "product",
+      "note": "Audio/video editing with AI"
+    },
+    {
+      "name": "GitHub Copilot",
+      "org": "GitHub / Microsoft",
+      "url": "https://github.com/features/copilot",
+      "category": "Coding",
+      "type": "product",
+      "note": "IDE coding assistant"
+    },
+    {
+      "name": "Cursor",
+      "org": "Anysphere",
+      "url": "https://cursor.com",
+      "category": "Coding",
+      "type": "product",
+      "note": "AI code editor"
+    },
+    {
+      "name": "Codeium",
+      "org": "Codeium",
+      "url": "https://codeium.com",
+      "category": "Coding",
+      "type": "product",
+      "note": "Code completion assistant"
+    },
+    {
+      "name": "Tabnine",
+      "org": "Tabnine",
+      "url": "https://www.tabnine.com",
+      "category": "Coding",
+      "type": "product",
+      "note": "AI code completion"
+    },
+    {
+      "name": "Amazon CodeWhisperer / Q",
+      "org": "Amazon",
+      "url": "https://aws.amazon.com/q/developer/",
+      "category": "Coding",
+      "type": "product",
+      "note": "AWS coding assistant"
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "org": "Sourcegraph",
+      "url": "https://sourcegraph.com/cody",
+      "category": "Coding",
+      "type": "product",
+      "note": "Codebase-aware assistant"
+    },
+    {
+      "name": "Continue.dev",
+      "org": "Continue",
+      "url": "https://continue.dev",
+      "category": "Coding",
+      "type": "tool",
+      "note": "Open-source coding assistant"
+    },
+    {
+      "name": "Aider",
+      "org": "Aider",
+      "url": "https://aider.chat",
+      "category": "Coding",
+      "type": "tool",
+      "note": "AI pair programming in terminal"
+    },
+    {
+      "name": "LMSYS Chatbot Arena",
+      "org": "LMSYS",
+      "url": "https://chat.lmsys.org",
+      "category": "Chat",
+      "type": "benchmark",
+      "note": "Human preference arena"
+    },
+    {
+      "name": "Artificial Analysis",
+      "org": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai",
+      "category": "Chat",
+      "type": "benchmark",
+      "note": "Quality/speed/price comparisons"
+    },
+    {
+      "name": "Papers with Code",
+      "org": "Community",
+      "url": "https://paperswithcode.com",
+      "category": "Open Source",
+      "type": "research",
+      "note": "Papers + code + leaderboards"
+    },
+    {
+      "name": "arXiv cs.AI",
+      "org": "Cornell",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "category": "Open Source",
+      "type": "research",
+      "note": "AI paper preprints"
+    },
+    {
+      "name": "OpenAI Research",
+      "org": "OpenAI",
+      "url": "https://openai.com/research",
+      "category": "Chat",
+      "type": "research",
+      "note": "OpenAI research publications"
+    },
+    {
+      "name": "Anthropic Research",
+      "org": "Anthropic",
+      "url": "https://www.anthropic.com/research",
+      "category": "Chat",
+      "type": "research",
+      "note": "Anthropic research"
+    },
+    {
+      "name": "Google DeepMind",
+      "org": "Google DeepMind",
+      "url": "https://deepmind.google",
+      "category": "Chat",
+      "type": "research",
+      "note": "DeepMind research and products"
+    },
+    {
+      "name": "LangChain",
+      "org": "LangChain",
+      "url": "https://www.langchain.com",
+      "category": "Open Source",
+      "type": "library",
+      "note": "Agent and orchestration framework"
+    },
+    {
+      "name": "LlamaIndex",
+      "org": "LlamaIndex",
+      "url": "https://www.llamaindex.ai",
+      "category": "Open Source",
+      "type": "library",
+      "note": "Data framework for LLM apps"
+    },
+    {
+      "name": "Haystack",
+      "org": "deepset",
+      "url": "https://haystack.deepset.ai",
+      "category": "Open Source",
+      "type": "library",
+      "note": "NLP/RAG framework"
+    },
+    {
+      "name": "Weights & Biases",
+      "org": "W&B",
+      "url": "https://wandb.ai",
+      "category": "Open Source",
+      "type": "tool",
+      "note": "Experiment tracking"
+    },
+    {
+      "name": "NVIDIA AI",
+      "org": "NVIDIA",
+      "url": "https://www.nvidia.com/en-us/ai/",
+      "category": "Open Source",
+      "type": "platform",
+      "note": "NVIDIA AI platforms and NIM"
+    },
+    {
+      "name": "IBM watsonx",
+      "org": "IBM",
+      "url": "https://www.ibm.com/watsonx",
+      "category": "Chat",
+      "type": "platform",
+      "note": "Enterprise AI platform"
+    },
+    {
+      "name": "Salesforce Einstein",
+      "org": "Salesforce",
+      "url": "https://www.salesforce.com/artificial-intelligence/",
+      "category": "Chat",
+      "type": "platform",
+      "note": "CRM-integrated AI"
+    },
+    {
+      "name": "Notion AI",
+      "org": "Notion",
+      "url": "https://www.notion.com/product/ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "AI inside Notion workspace"
+    },
+    {
+      "name": "Grammarly",
+      "org": "Grammarly",
+      "url": "https://www.grammarly.com",
+      "category": "Chat",
+      "type": "product",
+      "note": "Writing assistance"
+    },
+    {
+      "name": "Jasper",
+      "org": "Jasper",
+      "url": "https://www.jasper.ai",
+      "category": "Chat",
+      "type": "product",
+      "note": "Marketing content AI"
+    },
+    {
+      "name": "Canva Magic Studio",
+      "org": "Canva",
+      "url": "https://www.canva.com/magic/",
+      "category": "Image",
+      "type": "product",
+      "note": "Design + generative AI"
+    },
+    {
+      "name": "Figma AI",
+      "org": "Figma",
+      "url": "https://www.figma.com",
+      "category": "Image",
+      "type": "product",
+      "note": "Design tools with AI features"
+    }
+  ],
+  "hubNote": "Hugging Face public models: use Live mode for 200k+ scale. Local seed ~50k for offline RAG. Products list = real websites only."
+}
